@@ -1,0 +1,668 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: url(../img/fon1.png) no-repeat center top;
+    background-size: cover;
+    padding-bottom: 160px;
+}
+
+.container {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 20px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 30px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.titles {
+    color: #fff;
+    margin-left: 600px;
+    margin-top: 160px;
+}
+
+.titles_1 {
+    font-size: 40px;
+}
+
+.titles_2 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.button1 {
+    font-size: 24px;
+    background: none;
+    color: #fff;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #fff;
+    border-style: solid;
+    display: block;
+    width: 150px;
+    padding: 10px 0;
+    margin-left: 600px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.text1 {
+    height: 450px;
+    margin-top: 120px;
+    margin-left: 95px;
+}
+
+.titles_3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.titles_4 {
+    font-size: 14px;
+    margin-top: 30px;
+    color: #404040;
+}
+
+.color_img {
+    margin-top: 80px;
+}
+
+.boxes {
+    height: 305px;
+}
+
+.box1 {
+    background-color: #404040;
+    height: 305px;
+    float: left;
+    width: 492px;
+}
+
+.box2 {
+    background-color: #f74c55;
+    height: 305px;
+    float: left;
+    width: 365px;
+}
+
+.box3 {
+    background-color: #2d5f3b;
+    height: 305px;
+    float: left;
+    width: 492px;
+}
+
+.Btext {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+.Stext2 {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+.Btext1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 164px;
+    margin-top: 40px;
+}
+
+.Stext1 {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 164px;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+.Stext3 {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-right: 164px;
+}
+
+.plas {
+    margin-left: 395px;
+    margin-top: 20px;
+}
+
+.plas1 {
+    margin-left: 285px;
+    margin-top: 20px;
+}
+
+.overlay {
+    background: url(../img/Layer.png) no-repeat center top;
+    background-size: cover;
+    height: 499px;
+}
+
+.titles_5 {
+    color: #000000;
+    font-size: 1px;
+    text-align: center;
+}
+.titles_6 {
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 180px;
+}
+.titles_7 {
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+}
+
+.button2 {
+    font-size: 24px;
+    background: none;
+    color: #fff;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #fff;
+    border-style: solid;
+    display: block;
+    width: 150px;
+    padding: 10px 20px;
+    margin-left: 570px;
+    margin-top: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.img_colors {
+    margin-top: 110px;
+    width: 100%;
+}
+
+footer {
+    height: 40px;
+}
+
+.titles_8 {
+    color: #a8a8a8;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+    .titles {
+        color: #fff;
+        margin-left: 500px;
+        margin-top: 160px;
+    }
+    .button1 {
+        font-size: 24px;
+        background: none;
+        color: #fff;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: #fff;
+        border-style: solid;
+        display: block;
+        width: 150px;
+        padding: 10px 0;
+        margin-left: 500px;
+        margin-top: 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .box1 {
+        background-color: #404040;
+        height: 305px;
+        float: left;
+        width: 341px;
+    }
+
+    .box2 {
+        background-color: #f74c55;
+        height: 305px;
+        float: left;
+        width: 342px;
+    }
+
+    .box3 {
+        background-color: #2d5f3b;
+        height: 305px;
+        float: left;
+        width: 341px;
+    }
+    .Btext {
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 45px;
+        margin-top: 40px;
+    }
+
+    .Stext2 {
+        font-size: 14px;
+        color: #fff;
+        margin-left: 45px;
+        margin-top: 30px;
+        margin-right: 45px;
+    }
+
+    .Btext1 {
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 45px;
+        margin-top: 40px;
+    }
+
+    .Stext1 {
+        font-size: 14px;
+        color: #fff;
+        margin-left: 45px;
+        margin-top: 30px;
+        margin-right: 45px;
+    }
+
+    .Stext3 {
+        font-size: 14px;
+        color: #fff;
+        margin-left: 45px;
+        margin-top: 30px;
+        margin-right: 45px;
+    }
+
+    .plas {
+        margin-left: 285px;
+        margin-top: 20px;
+    }
+
+    .button2 {
+        font-size: 24px;
+        background: none;
+        color: #fff;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: #fff;
+        border-style: solid;
+        display: block;
+        width: 150px;
+        padding: 10px 20px;
+        margin-left: 415px;
+        margin-top: 50px;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+
+    .titles {
+        color: #fff;
+        margin-left: 400px;
+        margin-top: 160px;
+    }
+
+    .button1 {
+        font-size: 24px;
+        background: none;
+        color: #fff;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: #fff;
+        border-style: solid;
+        display: block;
+        width: 150px;
+        padding: 10px 0;
+        margin-left: 400px;
+        margin-top: 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .box1 {
+        background-color: #404040;
+        height: 305px;
+        float: left;
+        width: 255px;
+    }
+
+    .box2 {
+        background-color: #f74c55;
+        height: 305px;
+        float: left;
+        width: 255px;
+    }
+
+    .box3 {
+        background-color: #2d5f3b;
+        height: 305px;
+        float: left;
+        width: 255px;
+    }
+
+    .Btext {
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    .Stext2 {
+        font-size: 14px;
+        color: #fff;
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+
+    .Btext1 {
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    .Stext1 {
+        font-size: 14px;
+        color: #fff;
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+
+    .Stext3 {
+        font-size: 14px;
+        color: #fff;
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+
+    .plas {
+        margin-left: 185px;
+        margin-top: 10px;
+    }
+    
+    .plas1 {
+        margin-left: 185px;
+        margin-top: 10px;
+    }
+
+    .button2 {
+        font-size: 24px;
+        background: none;
+        color: #fff;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: #fff;
+        border-style: solid;
+        display: block;
+        width: 150px;
+        padding: 10px 20px;
+        margin-left: 280px;
+        margin-top: 50px;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+
+    .logo {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    nav {
+        margin-top: 50px;
+        margin-right: 110px;
+    }
+
+    .menu {
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    .titles {
+        color: #fff;
+        margin-left: 100px;
+        margin-top: 160px;
+    }
+
+    .text1 {
+        height: 450px;
+        margin-top: 110px;
+        margin-left: 55px;
+        margin-right: 150px;
+    }
+
+    .titles_3 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .titles_4 {
+        font-size: 14px;
+        margin-top: 30px;
+        color: #404040;
+    }
+
+
+    .button1 {
+        font-size: 24px;
+        background: none;
+        color: #fff;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: #fff;
+        border-style: solid;
+        display: block;
+        width: 150px;
+        padding: 10px 0;
+        margin-left: 100px;
+        margin-top: 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .box1 {
+        background-color: #404040;
+        height: 305px;
+        width: 425px;
+        margin-top: 150px;
+    }
+
+    .box2 {
+        background-color: #f74c55;
+        height: 305px;
+        width: 425px;
+    }
+
+    .box3 {
+        background-color: #2d5f3b;
+        height: 305px;
+        width: 425px;
+    }
+
+    .Btext {
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 45px;
+        margin-top: 40px;
+    }
+
+    .Stext2 {
+        font-size: 14px;
+        color: #fff;
+        margin-left: 45px;
+        margin-top: 30px;
+        margin-right: 45px;
+    }
+
+    .Btext1 {
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 45px;
+        margin-top: 40px;
+    }
+
+    .Stext1 {
+        font-size: 14px;
+        color: #fff;
+        margin-left: 45px;
+        margin-top: 30px;
+        margin-right: 45px;
+    }
+
+    .Stext3 {
+        font-size: 14px;
+        color: #fff;
+        margin-left: 45px;
+        margin-top: 30px;
+        margin-right: 45px;
+    }
+
+    .plas {
+        margin-left: 185px;
+        margin-top: 30px;
+    }
+
+    .plas1 {
+        margin-left: 185px;
+        margin-top: 30px;
+    }
+
+    .overlay {
+        background: url(../img/Layer.png) no-repeat center top;
+        background-size: cover;
+        height: 499px;
+        margin-top: 700px;
+    }
+
+    .titles_5 {
+        color: #000000;
+        font-size: 1px;
+        text-align: center;
+    }
+
+    .titles_6 {
+        color: #fff;
+        font-size: 42px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .titles_7 {
+        color: #fff;
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .button2 {
+        font-size: 24px;
+        background: none;
+        color: #fff;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: #fff;
+        border-style: solid;
+        display: block;
+        width: 150px;
+        padding: 10px 20px;
+        margin-left: 110px;
+        margin-top: 50px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .img_colors {
+        margin-top: 90px;
+        width: 100%;
+    }
+
+    footer {
+        height: 40px;
+    }
+
+    .titles_8 {
+        color: #a8a8a8;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 25px;
+        margin-right: 110px;
+    }
+}
